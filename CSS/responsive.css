@@ -1,0 +1,41 @@
+@media(max-width:1030px){
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3{
+        background-position: 65% center;
+        min-height: 300px;
+    }
+.home .home-banner-text{
+       
+    }
+}
+
+@media(max-width:991px){
+    
+.home .home-banner-text{
+        padding: 9%;
+    }
+}
+
+@media(max-width:767px){
+    .home .home-banner-1,
+    .home .home-banner-2,
+    .home .home-banner-3{
+        background-position: 50% center;
+        min-height: 300px;
+    }
+.home .home-banner-text{
+    text-align: center;
+    width: 100%;
+    padding: 15% 0%;
+}
+.home .home-banner .home-banner-text h1{
+    font-size: 2rem;
+}
+.home .home-banner .home-banner-text h4{
+    font-size: 1.2rem;
+}
+.home .home-banner .home-banner-text .btn-danger{
+    padding: 0.5rem ;
+}
+} 
